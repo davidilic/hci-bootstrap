@@ -1,0 +1,182 @@
+/* ============================================================================ */
+/* ============================== GENERAL ===================================== */
+/* ============================================================================ */
+
+* { font-family: 'Montserrat', sans-serif; }
+
+.primary { color: #2F3F4E !important; }
+.bg-primary { background-color: #2F3F4E !important; }
+.darkprimary { color: #0F1F2E !important; }
+.bg-darkprimary { background-color: #0F1F2E !important; }
+.seconday { color: #384048 !important; }
+.bg-secondary { background-color: #384048 !important; }
+.success { color: #02C39A !important; }
+.bg-success { background-color: #02C39A !important; }
+.white { color: #FFFEFE !important; }
+.bg-white { background-color: #FFFEFE !important; }
+.light { color: #DDDBDB !important; }
+.bg-light { background-color: #DDDBDB; }
+.grey { color: #BBBBBB !important; }
+.bg-grey { background-color: #BBBBBB !important; }
+.bg-grey-darker { background-color: #a6a6a6 !important;}
+.dark { color: #070714 !important; }
+.bg-dark { background-color: #070714 !important; }
+
+.h1 { font-size: 48px; }
+.h2 { font-size: 24px; }
+.h3 { font-size: 20px; }
+.h4 { font-size: 16px; }
+.h5 { font-size: 12px; }
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ============================================================================ */
+/* ============================== NAVBAR ====================================== */
+/* ============================================================================ */
+
+nav {
+    padding: 0 50px;
+}
+
+.container-fluid {
+    padding: 0 20px;
+}
+
+.header-brand-container {
+    display: flex;
+    align-items: center;
+
+    color: #FFFEFE;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar-toggler {
+    border: 1px solid #FFFEFE;
+    background-color: #2F3F4E;
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.fa-sharp.fa-solid.fa-bars {
+    color: #FFFEFE;
+
+}
+
+.header-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+.navbar-collapse {
+    width: fit-content;
+}
+
+/* ============================================================================ */
+/* ============================== FIRST SECTION ====================================== */
+/* ============================================================================ */
+
+
+header {
+    background: url('world.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.search {
+    outline: none;
+}
+
+.main-input {
+    font-weight: 600;
+    padding-left: 5px;
+    outline: none;
+}
+
+/* ============================================================================ */
+/* ============================== SECOND SECTION ====================================== */
+/* ============================================================================ */
+
+
+.second-section {
+    background: url('datacenter.jpg');
+    background-size: contain;
+}
+
+.benefit-box {
+    height: 320px;
+    width: 320px;
+}
+
+/* ============================================================================ */
+/* ============================== THIRD SECTION ====================================== */
+/* ============================================================================ */
+
+.option-card {
+    height: auto;
+    width: 320px;
+}
+
+.mesecno {
+    margin: -20px 0 0 0;
+}
+
+.emphasized {
+    border: 5px solid #02C39A;
+}
+
+
+/* ============================================================================ */
+/* ============================== FOOTER ====================================== */
+/* ============================================================================ */
+
+
+.main-heading {
+    font-weight: 600;
+}
+
+
+
+
+/* ============================================================================ */
+/* ============================== MEDIA QUERIES ====================================== */
+/* ============================================================================ */
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+        color: #070714;
+        background-color: #FFFEFE;
+        padding: 10px 30px;
+        margin: 0 10px;
+    }
+
+    .container-fluid {
+        justify-content: center !important;
+    }
+
+    .h4.main-heading {
+        font-size: 36px;
+    }
+
+    .h5.main-heading {
+        font-size: 20px;
+    }
+}
